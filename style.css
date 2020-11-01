@@ -163,7 +163,7 @@ button:hover {
     background-color: #ffffff;
     align-items: center;
     justify-items: center;
-    padding: 20em 0em;
+    padding: 14em 0em 20em;
 }
 
 .section-txt1 {
@@ -174,13 +174,20 @@ button:hover {
     
 }
 
+
+.middle-txt {
+    padding: 10em 0em 20em;
+}
+
+
 .section {
+    margin-right: 2vw;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     grid-area: auto;
 }
 #middle-section {
-    margin-left: 5vw;
+    margin-left: 8vw;
     display: grid;
     grid-template-columns: 4fr 1fr;
     justify-content: space-between;
@@ -246,6 +253,10 @@ button:hover {
         width: 768px;
     }
         
+    .bottom-txt {
+        padding: 10em 0em 20em;
+}
+
 }
 
 
